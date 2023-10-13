@@ -1,0 +1,95 @@
+/*
+    Aquí va el diseño de todo lo especifico de la pantalla index.
+*/
+
+.animales{
+
+    background: white;
+    color: gray;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row ;
+}
+
+
+.animales figure{
+
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+
+}
+
+.animales figure img{
+
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+}
+
+
+.historias{
+
+    padding-top: 10px;
+    background: lightblue ;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#divblue {
+
+    height: 100px;
+    width: 80%;
+    background-color: rgb(76, 181, 245);
+    text-align: center;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    margin: 0 auto;
+
+}
+
+table,
+th,
+td {
+
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#tblHistoria {
+
+    margin: 20px auto;
+    border: 1px solid black;
+    width: 80%;
+    background-color: cornsilk;
+}
+
+#tblHistoria td{
+
+    padding: 10px;
+}
+
+#tblHistoria img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#tblHistoria h4{
+
+    text-align: center;
+
+}
+
+.text-justify{
+
+    text-align: justify !important;
+}
+
